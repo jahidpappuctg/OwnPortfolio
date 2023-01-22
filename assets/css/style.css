@@ -98,3 +98,52 @@ a{
 .header-area .topbar-left .topbar-item a span{
     color: #fff;
 }
+.header-area .topbar-right{
+    text-align: right;
+}
+.header-area .topbar-right .topbar-social a{
+    color:#fff;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+.header-area .topbar-right .topbar-social a:hover{
+    color:var(--primary-color)
+}
+
+
+.header-area .navigation-area{
+    background-color: #ddd;
+}
+
+.header-area .logo-wrapper{
+
+}
+
+.header-area .nav-wrapper{
+    text-align: center;
+}
+
+.header-area .nav-wrapper ul li{
+    display: inline-block;
+}
+
+.header-area .nav-wrapper ul li a{
+    display: inline-block;
+    padding: 15px 15px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.header-area .nav-wrapper ul li a:hover{
+    color: var(--primary-color);
+}
+
+.header-area .header-btn a{
+    display: inline-block;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
