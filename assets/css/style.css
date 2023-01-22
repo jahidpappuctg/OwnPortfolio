@@ -1,3 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sen:wght@400;700;800&display=swap');
 
-font-family: 'Sen', sans-serif;
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Sen', sans-serif; */
+
+:root{
+    --heading-font: 'Sen', sans-serif;
+    --template-font : 'DM Sans', sans-serif;
+    --primary-color: #4041F7;
+    --secondary-color: #2bc6a7;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--heading-font);
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h5{
+    font-size: 24px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--template-font);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+}
+
+/* header area */
+
+.header-area .top-bar{
+    background-color: var(--secondary-color);
+    padding: 10px 15px;
+}
+
+.header-area .topbar-left{
+    display: flex;
+}
+
+.header-area .top-bar .topbar-item:last-child{
+    margin-left: 35px;
+}
+
+.header-area .topbar-left .topbar-item a .icon-wrapper{
+    width: 35px;
+    height: 35px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-area .topbar-left .topbar-item a span{
+    color: #fff;
+}
