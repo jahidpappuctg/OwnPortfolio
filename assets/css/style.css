@@ -69,6 +69,9 @@ a{
     max-width: 1200px;
 }
 
+.p-120{
+    padding: 120px 0;
+}
 /* header area */
 
 .header-area{
@@ -194,8 +197,6 @@ a{
     font-family: var(--heading-font);
     font-weight: 700;
     text-transform: capitalize;
-
-
 }
 
 /* hero area */
@@ -209,6 +210,41 @@ a{
     margin-top: -140px;
 }
 
+.hero-area .hero-left .hero-title{
+    margin: 30px 0px;
+
+}
+
+.hero-area .hero-left .hero-para{
+    width: 500px;
+}
+.hero-area .hero-left .subtitle span{
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 80px;
+}
+.hero-area .hero-left .subtitle span::before{
+    content:"";
+    width: 75px;
+    height: 4px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.hero-area .hero-left .hero-title h1 span{
+    background-color: transparent;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.hero-area .hero-left .hero-title h1 {
+    font-weight: 700;
+    letter-spacing: -3.3px;
+}
+
 .hero-area .hero-img{
     position: relative;
     height: 100%;
@@ -219,6 +255,24 @@ a{
     bottom: -180px;
 }
 
+.hero-area .hero-left .hero-btn{
+
+}
+
+
+.hero-area .hero-left .hero-btn .primary-btn a{
+
+    background-color: var(--primary-color);
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 25px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+}
 
 
 /* footer area */
